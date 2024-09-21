@@ -7,7 +7,7 @@ services:
       - data-tmp:/data/tmp
     environment:
       DOWNLOAD_URL: 'http://192.168.191.69:3000/download'
-      TOKEN_SECRET: 'z$`9onc{@eG7{9zcQt@*>f80|>6hz<gn~Cod!2c=<ut,fZek,V:Z[+B{.=TLKdU'
+      TOKEN_SECRET: 'djfjdkljfdnfniojirendsdnkliocjoidjgdkdlkfnkljjdkldfmsdlkjfisojk'
       RDS_HOST: 'mysql'
       RDS_USERNAME: 'codepush'
       RDS_PASSWORD: '123456'
