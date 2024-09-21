@@ -7,7 +7,7 @@ const { md5 } = require('../../../bin/core/utils/security');
 const { redisClient } = require('../../../bin/core/utils/connections');
 
 describe('api/users/users.test.js', function () {
-    var accountExist = 'lisong2010@gmail.com';
+    var accountExist = 'test@mypcot.com';
     var account = '522539441@qq.com';
     var registerKey = `REGISTER_CODE_${md5(account)}`;
     var password = '654321';
